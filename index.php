@@ -39,7 +39,7 @@
           </p>
         </div>
         <div id="article">
-          <small class="small"><p align="center">This website was designed and created by Constance using HTML, PHP, CSS, and JavaScript (JQuery).</p></small>
+          <small class="small">This website was designed and created by Constance using HTML, PHP, CSS, and JavaScript (JQuery).</small>
         </div>
       </main>
 

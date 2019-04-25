@@ -131,6 +131,7 @@ hr {
   font-size: 14px;
   font-style: italic;
   padding-top: 5px;
+  text-align: center;
   clear: left;
   display: block;
 }
