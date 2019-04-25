@@ -65,7 +65,7 @@ a:visited {
   text-decoration: none;
 }
 
-article {
+.article {
   display: block;
   padding-bottom: 5px;
 }

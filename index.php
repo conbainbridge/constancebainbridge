@@ -22,7 +22,7 @@
       </nav>
 
       <main>
-        <article>
+        <div id="article">
           <h2>About me</h2>
           <img src="img/CBain_headshot.jpg" alt="Constance Bainbridge headshot" width="20%" class="left" style="min-width: 150px" />
           <p class="padding-top">
@@ -37,10 +37,10 @@
           <p>
             Creative interests: composing, performing, and teaching music; graphic design, fine art, and 3D modeling/animation.
           </p>
-        </article>
-        <article>
+        </div>
+        <div id="article">
           <small class="small"><p align="center">This website was designed and created by Constance using HTML, PHP, CSS, and JavaScript (JQuery).</p></small>
-        </article>
+        </div>
       </main>
 
       <footer>
