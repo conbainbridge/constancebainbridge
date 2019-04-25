@@ -9,8 +9,8 @@
 <script type="text/javascript" src="js/events.js"></script>
 <script type="text/javascript">
 ;( function( $ ) {
-
   $( '.swipebox' ).swipebox();
-
+  $( '.swipebox2' ).swipebox();
+  $( '.swipebox3' ).swipebox();
 } )( jQuery );
 </script>
