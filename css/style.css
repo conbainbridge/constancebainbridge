@@ -1,0 +1,290 @@
+/* CSS for constancebainbridge.com */
+
+/* universal */
+body {
+  background-color: #232A3B;
+  background-image: linear-gradient(to right, #009BD5, #232A3B 10%, #232A3B 80%, #232A3B, #009BD5);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header {
+  background-color: #232A3B;
+  color: #fff;
+}
+
+main {
+  background-color: #fff;
+  padding: 1%;
+  overflow: auto;
+}
+
+footer {
+  background-color: #232A3B;
+  color: #fff;
+  font-style: italic;
+  padding: 0.3em 0.3em 0.8em 0.3em;
+  margin-bottom: 2%;
+}
+
+h1 {
+  color: #00A5DA;
+  font-size: 1.75em;
+}
+
+h2 {
+  color: orange;
+  margin-left: auto;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h3 {
+  color: #009BD5;
+}
+
+img {
+  clear: both;
+}
+
+a:link {
+  color: #009BD5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DD6800 !important;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #DD6800;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #009BD5;
+  text-decoration: none;
+}
+
+article {
+  display: block;
+  padding-bottom: 5px;
+}
+
+hr {
+  color: orange;
+  border-style: dashed;
+  border-width: thin;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 50px;
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.padding-top {
+  padding-top: 10px;
+}
+
+.left {
+  float: left;
+  clear: left;
+  display: inline-block;
+  padding: 10px;
+}
+
+.right {
+  float: right;
+  clear: right;
+  display: inline-block;
+  padding: 5px;
+}
+
+/* social media icons */
+.floater {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 3%;
+  top: 0px;
+  float: left;
+  padding-top: 10px;
+}
+
+.icon {
+  width: 100%;
+  opacity: 0.5;
+  float:left;
+  clear: left;
+}
+
+.icon:hover {
+  width: 100%;
+  opacity: 1;
+  transition: 1s;
+  float:left;
+  clear: left;
+}
+
+.small {
+  font-size: 14px;
+  font-style: italic;
+  padding-top: 5px;
+  clear: left;
+  display: block;
+}
+
+/* Nav bar */
+nav {
+  background-color: #232A3B;
+}
+
+nav ul {
+  list-style: none;
+  display: inline;
+  padding: 0%;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+}
+
+nav a:link {
+  background-color: #fff;
+  color: #009BD5;
+  opacity: 0.5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-decoration: none;
+  padding: 0.5% 2% 0% 2%;
+  font-size: 24px;
+}
+
+nav a:hover {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+nav a:active {
+  color: #8DDBF9;
+}
+
+nav a:visited {
+  color: #009BD5;
+}
+
+#current {
+  opacity: 1;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-decoration: none;
+}
+
+/* cv+ */
+.cv {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.cv ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.cv ul li {
+  margin: 10px;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+/* portfolio */
+.button-center {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.button-tab {
+  background-color: #009BD5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+  border-color: #009BD5;
+  font-size: 1em;
+  padding: 5px 15px 5px 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5px;
+  width: 39%;
+  min-width: 200px;
+  outline: none;
+}
+
+.button-tab:hover {
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: orange;
+  border-color: #009BD5;
+  font-size: 1em;
+  padding: 5px 15px 5px 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5px;
+  width: 39%;
+  min-width: 200px;
+  outline: none;
+  display: inline;
+  cursor: pointer;
+}
+
+.card {
+  border-style: dashed;
+  border-color: orange;
+  border-width: thin;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5px;
+  padding: 10px;
+  min-width: 200px;
+  overflow: auto;
+  display: none;
+}
+
+.gallery {
+  float: left;
+  clear: left;
+  display: block;
+}
+
+.gallery ul {
+  list-style: none;
+}
+
+.gallery li {
+  list-style: none;
+  float: left;
+  display: inline;
+  width: 30%;
+  min-width: 200px;
+  padding: 5px;
+  text-indent: -2em;
+}
+
+.gallery img {
+  width: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+.gallery img:hover {
+  width: 100%;
+  opacity: 0.5;
+  transition: 0.3s;
+}
