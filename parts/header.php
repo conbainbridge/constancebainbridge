@@ -1,1 +1,1 @@
-<img src="img/header2.png" alt="Constance Bainbridge website header" width="100%" />
+<h1>Constance Bainbridge</h1>

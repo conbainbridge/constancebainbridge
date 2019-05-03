@@ -27,8 +27,11 @@ footer {
 }
 
 h1 {
-  color: #00A5DA;
-  font-size: 1.75em;
+  color: #fff;
+  font-size: 6vw;
+  text-align: center;
+  margin: 15px 0px;
+  font-family: 'Audiowide', cursive;
 }
 
 h2 {
@@ -258,34 +261,58 @@ nav a:visited {
 }
 
 .gallery {
-  float: left;
-  clear: left;
   display: block;
-}
-
-.gallery ul {
-  list-style: none;
-}
-
-.gallery li {
-  list-style: none;
-  float: left;
-  display: inline;
-  width: 30%;
-  min-width: 200px;
-  padding: 5px;
-  text-indent: -2em;
 }
 
 .gallery img {
   width: 100%;
-  border-style: solid;
+  margin: 2% 0.6% 0% 0%;
+  min-width: 200px;
+  max-width: 500px;  border-style: solid;
   border-width: thin;
   border-color: black;
 }
-
-.gallery img:hover {
+video {
   width: 100%;
+  margin: 2% 0.6% 0% 0%;
+  min-width: 200px;
+  max-width: 500px;
+}
+@media (min-width: 768px) {
+  .gallery img {
+    width: 23%;
+    margin: 1% 0.6% 0% 0%;
+    min-width: 200px;
+    max-width: 500px;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+  }
+  video {
+    width: 23%;
+    margin: 1% 0.6% 0% 0%;
+    min-width: 200px;
+    max-width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .gallery img {
+    width: 100%;
+    margin: 2% 0.6% 0% 0%;
+    min-width: 200px;
+    max-width: 500px;  border-style: solid;
+    border-width: thin;
+    border-color: black;
+  }
+  video {
+    width: 100%;
+    margin: 2% 0.6% 0% 0%;
+    min-width: 200px;
+    max-width: 500px;
+  }
+}
+.gallery img:hover {
+  border-style: solid;
   opacity: 0.5;
   transition: 0.3s;
 }
