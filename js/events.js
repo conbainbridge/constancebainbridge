@@ -13,6 +13,7 @@ $(document).ready(function() {
   $('#musicTog').click(
     function(event) {
       $('#music_info').toggle('fast');
+      $('#musicTog').toggleClass('open')
     }
   )
 })
@@ -21,6 +22,7 @@ $(document).ready(function() {
   $('#artTog').click(
     function(event) {
       $('#art_info').toggle('fast');
+      $('#artTog').toggleClass('open')
     }
   )
 })
