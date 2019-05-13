@@ -3,4 +3,4 @@ Personal website including curriculum vitae, portfolio of music and art work, an
 
 Made using HTML5, CSS3, PHP, and JavaScript (JQuery, Swipebox, native JS)
 
-Preview [here] (http://constancebainbridge.com/templates/scroll-template1/ "Personal site")
+Preview [here](http://constancebainbridge.com/templates/scroll-template1/ "Personal site")
