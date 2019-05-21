@@ -317,3 +317,20 @@ video {
   opacity: 0.5;
   transition: 0.3s;
 }
+
+/* Links */
+
+.siteGallery {
+  width: 200px;
+  text-indent: 0em;
+  padding-left: 0em;
+}
+.siteGallery img {
+  width: 200px;
+  opacity: 1;
+}
+.siteGallery img:hover {
+  width: 200px;
+  opacity: 0.5;
+  transition: 0.3s;
+}

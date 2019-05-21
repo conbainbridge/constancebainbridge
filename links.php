@@ -25,6 +25,12 @@
         <h2>Links</h2>
         <p>
           <ul class="cv">
+            <li><strong>Sample site design templates</strong>
+              <ul>
+                <li><div class="siteGallery"><a href="http://constancebainbridge.com/templates/scroll-template1/"><img src="img/scroll-template-image.png" alt="Web design example 1"></a></div></li>
+              </ul>
+            </li>
+            <br/>
             <li><strong>Elsewhere online</strong>
               <ul>
                 <li><a href="https://www.linkedin.com/in/constanceb/" target="_blank">LinkedIn</a></li>
