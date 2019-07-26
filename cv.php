@@ -23,10 +23,10 @@
 
       <main>
         <h2>Curriculum Vitae</h2>
-        <p class="cv">
+        <p>
           <ul class="cv">
             <li><h3>Work experience</h3>
-              <ul class="cv">
+              <ul>
                 <li><strong>January 2018-Present:</strong> Research assistant, the Music Lab (PI: Samuel Mehr) at Harvard University, Department of Psychology</li>
                 <li><strong>May 2018-Present:</strong> Lab manager, Evolutionary Psychology Lab (PI: Max Krasnow) at Harvard University, Department of Psychology</li>
                 <li><strong>August 2016-Present:</strong> Private violin teacher: classical, contemporary, and improvisation</li>
@@ -46,19 +46,20 @@
           <ul class="cv">
             <li><h3>Papers & Abstracts</h3></li>
             <li><strong>Papers</strong>
-              <ul class="cv">
-                <li><strong>2015: Bainbridge, C. M.</strong>, Bainbridge, W. A., Oliva, A. (2015). "Quadri-stability of a spatially ambiguous auditory illusion." Frontiers in Human Neuroscience.</li>
+              <ul>
+                <li><strong>2019: </strong>Mehr, S. A., Singh, M., Knox, D., Ketter, D. M., Pickens-Jones, D., Atwood, S., Lucas, C., Egner, A., Jacoby, N., Hopkins, E. J., Howard, R. M., Hartshorne, J. K., Jennings, M. V., Simson, J., <strong>Bainbridge, C. M.</strong>, Pinker, S., O'Donnell, T. J., Krasnow, M. M., & Glowacki, L. (in revision). A natural history of song.</li>
+                <li><strong>2015: </strong><strong>Bainbridge, C. M.</strong>, Bainbridge, W. A., Oliva, A. (2015). "Quadri-stability of a spatially ambiguous auditory illusion." Frontiers in Human Neuroscience.</li>
                 <li>Bylinskii, Z., Isola, P., <strong>Bainbridge, C.M.</strong>, Torralba, A., & Oliva, A. (2015). "Intrinsic and Extrinsic Effects on Image Memorability." Vision Research.</li>
                 <li>Borkin, M., Bylinskii, Z., Kim, N. W., <strong>Bainbridge, C. M.</strong>, Yeh, S. C., Borkin, D., Pfister, H., Oliva, A. "Beyond Memorability: Visualization Recognition and Recall." IEEE Transactions on Visualization and Computer Graphics (Proceedings of InfoVis 2015).</li>
               </ul>
             </li>
             <br/>
             <li><strong>Posters</strong>
-              <ul class="cv">
-                <li><strong>2019:</strong> Moser, C., Lee-Rubin, H., Infant-Directed Vocalization Collaboration, <strong>Bainbridge, C. M.</strong>, Atwood, S., Krasnow, M. M., Mehr, S. A. (2019, March). Acoustical regularities in infant-directed vocalizations worldwide. Poster presented at the 177th Meeting of The Acoustical Society of America, Louisville, KY, USA.</li>
-                <li><strong>2018: Bainbridge, C. M.</strong>, Atwood, S., Xing, F., Bertolo, M., Lopez, K., Bitran, A., Youngers, J., Mehr, S. A. (Accepted). Infant responses to foreign lullabies differ from responses to other foreign songs. SRCD 2019.</li>
-                <li><strong>2014: Bainbridge, C. M.</strong>, Oliva, A. "Perceptual Biasing of a Continuous Auditory Quadri-stable Illusion." Journal of Vision, 14 (10), 435. VSS (Vision Sciences Society).</li>
-                <li><strong>2013: Bainbridge, C. M.</strong>, Bainbridge, W. A., & Oliva, A. "Introducing a Quadri-stable Auditory Spatial Illusion: Imagining Objects Moving Through Space."  Journal of Vision, 13 (9), 1074. VSS (Vision Sciences Society).</li>
+              <ul>
+                <li><strong>2019: </strong>Moser, C., Lee-Rubin, H., Infant-Directed Vocalization Collaboration, <strong>Bainbridge, C. M.</strong>, Atwood, S., Krasnow, M. M., Mehr, S. A. (2019, March). Acoustical regularities in infant-directed vocalizations worldwide. Poster presented at the 177th Meeting of The Acoustical Society of America, Louisville, KY, USA.</li>
+                <li><strong>2018: </strong><strong>Bainbridge, C. M.</strong>, Atwood, S., Xing, F., Bertolo, M., Lopez, K., Bitran, A., Youngers, J., & Mehr, S. A. (2019). Infant responses to foreign lullabies differ from responses to other foreign vocal music. Poster presented at the Biennial Meeting of the Society for Research in Child Development, Baltimore, MD, USA.
+                <li><strong>2014: </strong><strong>Bainbridge, C. M.</strong>, Oliva, A. "Perceptual Biasing of a Continuous Auditory Quadri-stable Illusion." Journal of Vision, 14 (10), 435. VSS (Vision Sciences Society).</li>
+                <li><strong>2013: </strong><strong>Bainbridge, C. M.</strong>, Bainbridge, W. A., & Oliva, A. "Introducing a Quadri-stable Auditory Spatial Illusion: Imagining Objects Moving Through Space."  Journal of Vision, 13 (9), 1074. VSS (Vision Sciences Society).</li>
                 <li><strong>Bainbridge, C. M.</strong>, Bainbridge, W. A., & Oliva, A. "Tricking the Ear: Using a Quadri-stable Auditory Illusion to Influence Sound Localization." Poster in the Auditory Perception, Cognition, and Action Meeting (APCAM), as part of the Annual Meeting of the Psychonomic Society.</li>
               </ul>
             </li>
@@ -77,11 +78,12 @@
             <li><strong>Additional coursework</strong>
               <ul>
                 <li>STAT 104: Introduction to Quantitative Methods for Economics, Harvard Extension School</li>
+                <li>CSCI E-12: Fundamentals of Website Development, Harvard Extension School</li>
               </ul>
             </li>
           </ul>
           <hr>
-          <ul class="cv">
+          <ul class="bullet">
             <li><h3>Technical skills</h3></li>
             <li><strong>Computer/Web</strong>
               <ul>
@@ -111,7 +113,7 @@
             </li>
             <br/>
             <li><strong>Still/Motion Graphics</strong>
-              <ul class="cv">
+              <ul>
                 <li>Editing and designing graphics and stimuli in Adobe Photoshop and Illustrator</li>
                 <li>3D modeling and animation in Blender</li>
                 <li>Video editing with Adobe Premiere & After Effects, iMovie</li>
@@ -119,7 +121,7 @@
             </li>
             <br/>
             <li><strong>Audio/Music</strong>
-              <ul class="cv">
+              <ul>
                 <li>Audio manipulation, production, and analysis programs including but not limited to: Pro Tools, Reason, Audition, Ableton, Audiosculpt, Audacity</li>
                 <li>Familiarity with setting up audio equipment live and in studio (including stereo and multi-channel configurations)</li>
                 <li>Creation of auditory illusions (quadri-stable spatial illusions: transverse, circling; tri-stable tritone illusion)</li>
@@ -160,11 +162,9 @@
       </main>
 
       <footer>
-        <div class="left">© 2019 - all rights reserved</div>
-        <div class="right"><a href="mailto:con.bainbridge@gmail.com" target="_blank">Contact</a></div>
-        <br/>
+        <?php include("parts/footer.php"); ?>
       </footer>
-
+      
     </div>
   </body>
 </html>

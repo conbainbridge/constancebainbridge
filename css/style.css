@@ -4,7 +4,8 @@
 body {
   background-color: #232A3B;
   background-image: linear-gradient(to right, #009BD5, #232A3B 10%, #232A3B 80%, #232A3B, #009BD5);
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
 }
 
 header {
@@ -25,6 +26,11 @@ footer {
   padding: 0.3em 0.3em 0.8em 0.3em;
   margin-bottom: 2%;
 }
+@media only screen and (orientation: portrait) {
+  footer {
+    font-size: 3vw;
+  }
+}
 
 h1 {
   color: #fff;
@@ -33,17 +39,14 @@ h1 {
   margin: 15px 0px;
   font-family: 'Audiowide', cursive;
 }
-
 h2 {
   color: orange;
   margin-left: auto;
   font-family: 'ZCOOL XiaoWei', serif;
 }
-
 h3 {
   color: #009BD5;
 }
-
 img {
   clear: both;
 }
@@ -114,6 +117,11 @@ hr {
   float: left;
   padding-top: 10px;
 }
+@media only screen and (orientation: portrait) {
+  .floater {
+    width: 8%;
+  }
+}
 
 .icon {
   width: 100%;
@@ -163,8 +171,13 @@ nav a:link {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   text-decoration: none;
-  padding: 0.5% 2% 0% 2%;
+  padding: 0.5% 2% 10px 2%;
   font-size: 24px;
+}
+@media only screen and (orientation: portrait) {
+  nav a:link {
+    font-size: 5vw;
+  }
 }
 
 nav a:hover {
@@ -207,6 +220,16 @@ nav a:visited {
   padding-left: 2em;
   text-indent: -2em;
 }
+.bullet {
+  list-style: none;
+  padding-left: 5px;
+}
+.bullet li {
+  list-style: none;
+}
+.bullet li ul li {
+  list-style: disc;
+}
 
 /* portfolio */
 .button-center {
@@ -229,21 +252,15 @@ nav a:visited {
   min-width: 200px;
   outline: none;
 }
+@media only screen and (orientation: portrait) {
+  .button-tab {
+    font-size: 3em;
+  }
+}
 
 .button-tab:hover, .button-tab.open {
   background-color: #fff;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   color: orange;
-  border-color: #009BD5;
-  font-size: 1em;
-  padding: 5px 15px 5px 15px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5px;
-  width: 39%;
-  min-width: 200px;
-  outline: none;
   display: inline;
   cursor: pointer;
 }
