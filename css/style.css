@@ -336,9 +336,7 @@ video {
 
 /* Links */
 .siteGallery {
-  width: 200px;
-  text-indent: 0em;
-  padding-left: 0em;
+  display: inline;
 }
 .siteGallery img {
   width: 200px;

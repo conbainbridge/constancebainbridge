@@ -25,12 +25,11 @@
         <h2>Links</h2>
         <p>
           <ul class="cv">
-            <li><strong>Sample site design templates</strong>
-              <ul>
-                <li><div class="siteGallery"><a href="http://constancebainbridge.com/templates/scroll-template1/"><img src="img/scroll-template-image.png" alt="Web design example 1"></a></div></li>
-              </ul>
-            </li>
-            <br/>
+          <p><strong>Web design/development examples</strong></p>
+          <p>
+            <div class="siteGallery"><a href="http://constancebainbridge.com/templates/scroll-template1/" target="_blank"><img src="img/scroll-template-image.png" alt="Web development scrolling template example image"></a></div>
+            <div class="siteGallery"><a href="http://constancebainbridge.com/apps/illusionist/" target="_blank"><img src="img/illusionist-app-image.png" alt="Web development music app example image"></a></div>
+          </p>
             <li><strong>Elsewhere online</strong>
               <ul>
                 <li><a href="https://www.linkedin.com/in/constanceb/" target="_blank">LinkedIn</a></li>
@@ -54,7 +53,7 @@
       <footer>
         <?php include("parts/footer.php"); ?>
       </footer>
-      
+
     </div>
   </body>
 </html>
